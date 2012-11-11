@@ -38,9 +38,3 @@ while True:
 
    print "read: %04x = %.1f C (%.1f F)" % (temp, parse(temp), ctof(temp))
    time.sleep(0.5)
-   #time.sleep(3)
-
-# test negative:
-# ex read f500
-#val = 0xf500
-#print "read: %04x = %f" % (val, parse(val))
